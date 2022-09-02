@@ -1,11 +1,19 @@
+import { RiMacbookLine } from "react-icons/ri";
+
 export default {
   name: 'product',
   title: 'Product',
   type: 'document',
+  icon: RiMacbookLine,
   fields: [
     {
       name: 'title',
-      title: 'Title',
+      title: 'Name',
+      type: 'string',
+    },
+    {
+      name: 'description',
+      title: 'Description',
       type: 'string',
     },
     {
